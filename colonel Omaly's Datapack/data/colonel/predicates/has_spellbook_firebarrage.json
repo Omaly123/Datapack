@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "stepping_on": {
+        "block": {
+          "blocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      },
+      "equipment": {
+        "offhand": {
+          "items": [
+            "minecraft:written_book"
+          ],
+          "nbt": "{title:Firebarrage}"
+        }
+      }
+    }
+  }
+  

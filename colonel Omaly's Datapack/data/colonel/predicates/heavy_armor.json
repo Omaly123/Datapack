@@ -1,0 +1,46 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "items": [
+            "minecraft:chainmail_helmet",
+            "iron_helmet",
+            "golden_helmet",
+            "turtle_helmet",
+            "diamond_helmet",
+            "netherite_helmet"
+          ]
+        },
+        "chest": {
+          "items": [
+            "minecraft:chainmail_chestplate",
+            "iron_chestplate",
+            "golden_chestplate",
+            "diamond_chestplate",
+            "netherite_chestplate"
+          ]
+        },
+        "legs": {
+          "items": [
+            "minecraft:chainmail_leggings",
+            "iron_leggings",
+            "golden_leggings",
+            "diamond_leggings",
+            "netherite_leggings"
+          ]
+        },
+        "feet": {
+          "items": [
+            "minecraft:chainmail_boots",
+            "iron_boots",
+            "golden_boots",
+            "diamond_boots",
+            "netherite_boots"
+          ]
+        }
+      }
+    }
+  }
+  

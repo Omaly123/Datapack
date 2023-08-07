@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "passenger": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{title:Healing}"
+          }
+        }
+      }
+    }
+  }
+  

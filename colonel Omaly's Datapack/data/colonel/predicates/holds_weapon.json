@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:iron_sword",
+            "minecraft:golden_sword",
+            "minecraft:wooden_sword",
+            "minecraft:diamond_sword",
+            "minecraft:netherite_sword",
+            "minecraft:iron_axe",
+            "minecraft:golden_axe",
+            "minecraft:iron_axe",
+            "minecraft:diamond_axe",
+            "minecraft:netherite_axe",
+            "minecraft:bow",
+            "minecraft:crossbow",
+            "minecraft:shield"
+          ]
+        }
+      }
+    }
+  }
