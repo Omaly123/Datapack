@@ -33,7 +33,7 @@ execute as @e[tag=raycast] run execute at @s run tp ^ ^1 ^
 execute as @a[scores={staff=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{colonel_staff:1b}}}] at @s run say Staff
 ###teleportation
 execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{colonel_staff_of_teleportation:1b}}}] at @s run execute at @s run particle minecraft:dust 0.333 0.027 0.733 0.4 ^ ^0.8 ^20 0 0 0 0 1 force @s
-execute as @a[scores={staff=1..,teleport_charge=200..,teleport_cd=..1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{colonel_staff_of_teleportation:1b}}}] at @s run playsound entity.enderman.teleport player @a[distance=..50] ~ ~ ~ 0.2
+execute as @a[scores={staff=1..,teleport_charge=200..,teleport_cd=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{colonel_staff_of_teleportation:1b}}}] at @s run playsound entity.enderman.teleport player @a[distance=..50] ~ ~ ~ 0.2
 execute as @a[scores={staff=1..,teleport_charge=200..,teleport_cd=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{colonel_staff_of_teleportation:1b}}}] at @s run function colonel:teleporting_pixel
 execute as @a[scores={staff=1..,teleport_charge=200..,teleport_cd=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{colonel_staff_of_teleportation:1b}}}] at @s run execute at @s run tp @s ^ ^0.8 ^20 
 execute as @a[scores={staff=1..,teleport_charge=200..,teleport_cd=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{colonel_staff_of_teleportation:1b}}}] at @s run playsound entity.enderman.teleport player @a[distance=..50] ~ ~ ~ 0.2
