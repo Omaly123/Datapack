@@ -7,7 +7,8 @@
  "overrides": [
   { "predicate": {"custom_model_data": 10001}, "model": "item/staff"},
   { "predicate": {"custom_model_data": 10002}, "model": "item/staff"},
-  { "predicate": {"custom_model_data": 10004}, "model": "item/staff"},
+  { "predicate": {"custom_model_data": 10003}, "model": "item/staff_of_fireball"},
+  { "predicate": {"custom_model_data": 10004}, "model": "item/staff_of_magic_missile"},
   { "predicate": {"custom_model_data": 10005}, "model": "item/staff"},
   { "predicate": {"custom_model_data": 10006}, "model": "item/staff"},
   { "predicate": {"custom_model_data": 10007}, "model": "item/staff"},
